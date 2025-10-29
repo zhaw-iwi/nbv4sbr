@@ -1,0 +1,150 @@
+[
+  {
+    "if": {
+      "intent": "summons",
+      "environment": {
+        "noise": "low_or_medium"
+      },
+      "audience": "group"
+    },
+    "do": {
+      "gesture": "nbv_winken_mir_nach_links_v1",
+      "speech_offset_ms": -150,
+      "repeat": 3
+    },
+    "modulation": {
+      "amplitude": "medium",
+      "tempo": "medium"
+    }
+  },
+  {
+    "if": {
+      "intent": "halt_signal",
+      "tension": "rising"
+    },
+    "do": {
+      "gesture": "nbv_stopp_linke_hand_v1",
+      "speech_offset_ms": 0,
+      "repeat": 1
+    },
+    "modulation": {
+      "amplitude": "low",
+      "tempo": "slow"
+    }
+  },
+  {
+    "if": {
+      "intent": "time_check",
+      "dialogue_state": "waiting"
+    },
+    "do": {
+      "gesture": "nbv_zeit_messen_linkes_handgelenk_v1",
+      "speech_offset_ms": 120,
+      "repeat": 1
+    },
+    "modulation": {
+      "amplitude": "low",
+      "tempo": "medium"
+    }
+  },
+  {
+    "if": {
+      "intent": "phone_talk_mime"
+    },
+    "do": {
+      "gesture": "nbv_fernsprechen_hand_vor_mund_rechts_v1",
+      "speech_offset_ms": 0,
+      "repeat": 1
+    },
+    "modulation": {
+      "amplitude": "low",
+      "tempo": "slow"
+    }
+  },
+  {
+    "if": {
+      "intent": "documentation_photo"
+    },
+    "do": {
+      "gesture": "nbv_ein_bild_machen_rechts_v1",
+      "speech_offset_ms": -80,
+      "repeat": 1
+    },
+    "modulation": {
+      "amplitude": "medium",
+      "tempo": "medium"
+    }
+  },
+  {
+    "if": {
+      "intent": "device_use",
+      "topic": "input"
+    },
+    "do": {
+      "gesture": "nbv_tippen_und_tasten_rechts_v1",
+      "speech_offset_ms": 0,
+      "repeat": 3
+    },
+    "modulation": {
+      "amplitude": "low",
+      "tempo": "fast"
+    }
+  },
+  {
+    "if": {
+      "intent": "approval"
+    },
+    "do": {
+      "gesture": "nbv_daumen_hoch_rechts_v1",
+      "speech_offset_ms": 100,
+      "repeat": 2
+    },
+    "modulation": {
+      "amplitude": "low",
+      "tempo": "medium"
+    }
+  },
+  {
+    "if": {
+      "intent": "celebration"
+    },
+    "do": {
+      "gesture": "nbv_victory_rechts_v1",
+      "speech_offset_ms": 0,
+      "repeat": 1
+    },
+    "modulation": {
+      "amplitude": "medium",
+      "tempo": "medium"
+    }
+  },
+  {
+    "if": {
+      "intent": "attention_directing",
+      "audience": "group"
+    },
+    "do": {
+      "gesture": "nbv_arme_seitlich_strecken_v1",
+      "speech_offset_ms": -120,
+      "repeat": 1
+    },
+    "modulation": {
+      "amplitude": "medium",
+      "tempo": "medium"
+    }
+  },
+  {
+    "if": {
+      "intent": "group_coordination"
+    },
+    "do": {
+      "gesture": "nbv_arme_seitlich_schwenken_gegenseitig_v1",
+      "speech_offset_ms": -100,
+      "repeat": 2
+    },
+    "modulation": {
+      "amplitude": "medium",
+      "tempo": "medium"
+    }
+  }
+]
