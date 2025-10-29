@@ -1,18 +1,23 @@
 # Non-Verbal Behaviour Vocabulary (NBV) for Robotic Social Behaviour Regulation
 This project aims to bridge HCI, performance studies, and embodied AI to advance reproducible, socially aware robot behaviour.
 
-### Why
-Social interaction involves far more than words.
-
-In human communication, non-verbal behaviour such as posture, gesture, gaze, and movement conveys intent, regulates attention, and shapes the emotional tone of exchanges. For social robots and embodied AI agents, this layer remains difficult to design systematically. Current robotic systems often rely on ad hoc motion scripts or isolated gestures that lack consistent semantics, contextual triggers, or social grounding.
-
-This project addresses that gap by building a machine-readable vocabulary of non-verbal behaviours that are both semantically interpretable and robotically executable. It aims to provide a structured foundation for model-driven multimodal interaction where verbal and non-verbal channels are managed coherently within human–AI collaboration frameworks.
+### Contents
+- `nbv_catalog.json` – catalogue of gestures with names, descriptions, functions, and contexts
+- `nbv_coupling_rules.json` – mappings from intents and SBR conditions to gestures with timing and modulation
+- `nbv_g1_poses.json` – executable G1 motion definitions for each gesture (XML keyframes)
 
 ### Applications
 - Human–Robot Interaction Research – reproducible non-verbal cues for experimental validation.
 - Social Robotics Design – building interaction grammars that blend language, gesture, and emotion.
 - AI Behaviour Modelling – connecting semantic intent layers to embodied control systems.
 - Performance and Theatre Studies – translating human gesture observation into computational embodiment.
+
+### Why
+Social interaction involves far more than words.
+
+In human communication, non-verbal behaviour such as posture, gesture, gaze, and movement conveys intent, regulates attention, and shapes the emotional tone of exchanges. For social robots and embodied AI agents, this layer remains difficult to design systematically. Current robotic systems often rely on ad hoc motion scripts or isolated gestures that lack consistent semantics, contextual triggers, or social grounding.
+
+This project addresses that gap by building a machine-readable vocabulary of non-verbal behaviours that are both semantically interpretable and robotically executable. It aims to provide a structured foundation for model-driven multimodal interaction where verbal and non-verbal channels are managed coherently within human–AI collaboration frameworks.
 
 ### What
 The Non-Verbal Behaviour Vocabulary (NBV) is a structured catalogue of human gestures and actions, observed in natural contexts and encoded for robotic execution on the Unitree G1 platform.
@@ -44,8 +49,3 @@ Coupling rules specify when gestures are triggered, how they align with verbal i
 This enables coordinated multimodal behaviour: speech, gesture, and affect working together as a regulated process.
 
 The repository therefore combines empirical observation, semantic annotation, and embodied implementation into a coherent resource for exploring non-verbal social signalling in human–robot interaction.
-
-### Contents
-- `nbv_catalog.json` – catalogue of gestures with names, descriptions, functions, and contexts
-- `nbv_coupling_rules.json` – mappings from intents and SBR conditions to gestures with timing and modulation
-- `nbv_g1_poses.json` – executable G1 motion definitions for each gesture (XML keyframes)
