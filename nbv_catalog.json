@@ -17,6 +17,26 @@
       "engaging",
       "assertive"
     ],
+    "place_function": [
+      "pass_through",
+      "threshold"
+    ],
+    "social_stance": [
+      "inviting",
+      "assertive"
+    ],
+    "activity_coupling": [
+      "group_coordination"
+    ],
+    "body_occupancy": [
+      "one_hand_busy",
+      "standing"
+    ],
+    "provenance": {
+      "source": "Nocon 2015",
+      "scene_or_page": "Bahnhof Gebaerde Handlung",
+      "verbatim_hint": "Winken Mir nach"
+    },
     "safety_notes": [
       "Seitlicher Freiraum links prüfen",
       "Schulter unter Schmerzgrenze halten"
@@ -38,6 +58,24 @@
     "affect_hint": [
       "calm"
     ],
+    "place_function": [
+      "threshold",
+      "hotspot"
+    ],
+    "social_stance": [
+      "deferential",
+      "non_threat"
+    ],
+    "activity_coupling": [],
+    "body_occupancy": [
+      "one_hand_busy",
+      "standing"
+    ],
+    "provenance": {
+      "source": "Nocon 2015",
+      "scene_or_page": "Cafe Gebaerde Handlung",
+      "verbatim_hint": "Die Handflächen zeigen"
+    },
     "safety_notes": [
       "Distanz wahren",
       "Keine schnellen Stöße"
@@ -59,6 +97,26 @@
     "affect_hint": [
       "engaging"
     ],
+    "place_function": [
+      "pass_through",
+      "threshold"
+    ],
+    "social_stance": [
+      "assertive",
+      "inviting"
+    ],
+    "activity_coupling": [
+      "group_coordination"
+    ],
+    "body_occupancy": [
+      "one_hand_busy",
+      "standing"
+    ],
+    "provenance": {
+      "source": "Nocon 2015",
+      "scene_or_page": "Bahnhof Gebaerde Handlung",
+      "verbatim_hint": "Winken Mir nach"
+    },
     "safety_notes": [
       "Seitlicher Freiraum links prüfen"
     ]
@@ -79,6 +137,24 @@
     "affect_hint": [
       "focused"
     ],
+    "place_function": [
+      "wait_zone"
+    ],
+    "social_stance": [
+      "neutral"
+    ],
+    "activity_coupling": [
+      "device_use"
+    ],
+    "body_occupancy": [
+      "one_hand_busy",
+      "standing"
+    ],
+    "provenance": {
+      "source": "Nocon 2015",
+      "scene_or_page": "Handlung Messeplatz",
+      "verbatim_hint": "Die Zeit messen"
+    },
     "safety_notes": [
       "Kollision mit Kopf vermeiden"
     ]
@@ -98,6 +174,27 @@
     "affect_hint": [
       "neutral"
     ],
+    "place_function": [
+      "pass_through",
+      "linger_zone"
+    ],
+    "social_stance": [
+      "display_self",
+      "neutral"
+    ],
+    "activity_coupling": [
+      "phone"
+    ],
+    "body_occupancy": [
+      "one_hand_busy",
+      "standing",
+      "walking"
+    ],
+    "provenance": {
+      "source": "Nocon 2015",
+      "scene_or_page": "Bahnhof Handlung",
+      "verbatim_hint": "Fernsprechen Telefon vor den Mund"
+    },
     "safety_notes": [
       "Gesicht nicht berühren"
     ]
@@ -117,6 +214,25 @@
     "affect_hint": [
       "playful"
     ],
+    "place_function": [
+      "hotspot",
+      "linger_zone"
+    ],
+    "social_stance": [
+      "display_self"
+    ],
+    "activity_coupling": [
+      "phone"
+    ],
+    "body_occupancy": [
+      "one_hand_busy",
+      "standing"
+    ],
+    "provenance": {
+      "source": "Nocon 2015",
+      "scene_or_page": "Flussufer Handlung",
+      "verbatim_hint": "Ein Bild machen"
+    },
     "safety_notes": [
       "Sichtfeld frei halten"
     ]
@@ -136,6 +252,25 @@
     "affect_hint": [
       "focused"
     ],
+    "place_function": [
+      "pass_through",
+      "wait_zone"
+    ],
+    "social_stance": [
+      "neutral"
+    ],
+    "activity_coupling": [
+      "phone"
+    ],
+    "body_occupancy": [
+      "one_hand_busy",
+      "standing"
+    ],
+    "provenance": {
+      "source": "Nocon 2015",
+      "scene_or_page": "Bahnhof Handlung",
+      "verbatim_hint": "Tippen und Tasten"
+    },
     "safety_notes": [
       "Keine starken Stöße"
     ]
@@ -155,6 +290,24 @@
     "affect_hint": [
       "positive"
     ],
+    "place_function": [
+      "hotspot",
+      "linger_zone"
+    ],
+    "social_stance": [
+      "display_self",
+      "affiliative"
+    ],
+    "activity_coupling": [],
+    "body_occupancy": [
+      "one_hand_busy",
+      "standing"
+    ],
+    "provenance": {
+      "source": "Nocon 2015",
+      "scene_or_page": "Ableitung aus Daumen hoch runter Paar",
+      "verbatim_hint": "Daumen hoch und runter"
+    },
     "safety_notes": [
       "Handgelenk entspannt halten"
     ]
@@ -173,6 +326,24 @@
     "affect_hint": [
       "positive"
     ],
+    "place_function": [
+      "hotspot"
+    ],
+    "social_stance": [
+      "display_self",
+      "playful"
+    ],
+    "activity_coupling": [],
+    "body_occupancy": [
+      "one_hand_busy",
+      "standing",
+      "walking"
+    ],
+    "provenance": {
+      "source": "Nocon 2015",
+      "scene_or_page": "Beschreibung 1 Szene Jugendliche Victory",
+      "verbatim_hint": "Victory Zeichen in die Luft"
+    },
     "safety_notes": [
       "Finger nicht ueberstrecken"
     ]
@@ -192,6 +363,23 @@
     "affect_hint": [
       "assertive"
     ],
+    "place_function": [
+      "hotspot",
+      "threshold"
+    ],
+    "social_stance": [
+      "assertive"
+    ],
+    "activity_coupling": [],
+    "body_occupancy": [
+      "both_hands_busy",
+      "standing"
+    ],
+    "provenance": {
+      "source": "Nocon 2015",
+      "scene_or_page": "Beschreibung 1 diverse Haltungen",
+      "verbatim_hint": "Arme seitlich strecken Raum markieren"
+    },
     "safety_notes": [
       "Seitlichen Freiraum pruefen"
     ]
@@ -212,8 +400,420 @@
     "affect_hint": [
       "engaging"
     ],
+    "place_function": [
+      "hotspot"
+    ],
+    "social_stance": [
+      "inviting"
+    ],
+    "activity_coupling": [
+      "group_coordination"
+    ],
+    "body_occupancy": [
+      "both_hands_busy",
+      "standing"
+    ],
+    "provenance": {
+      "source": "Nocon 2015",
+      "scene_or_page": "Ableitung aus Bewegungsfolgen",
+      "verbatim_hint": "Arme seitlich gegenläufig"
+    },
     "safety_notes": [
       "Schwenkweite begrenzen"
+    ]
+  },
+  {
+    "id": "nbv_haar_aus_gesicht_rechts_v1",
+    "name": "Haar aus dem Gesicht rechts",
+    "description": "Rechte Hand fuehrt eine kurze Bogenbewegung von Schlaefe ueber Ohr nach hinten zurueck",
+    "context": [
+      "platz_stadtmitte",
+      "haltestelle"
+    ],
+    "communicative_functions": [
+      "self_maintenance",
+      "attention_regain"
+    ],
+    "affect_hint": [
+      "neutral",
+      "soothing"
+    ],
+    "place_function": [
+      "linger_zone",
+      "wait_zone"
+    ],
+    "social_stance": [
+      "repair_self",
+      "invisible"
+    ],
+    "activity_coupling": [
+      "phone",
+      "bag"
+    ],
+    "body_occupancy": [
+      "one_hand_busy",
+      "standing",
+      "walking"
+    ],
+    "provenance": {
+      "source": "Nocon 2015",
+      "scene_or_page": "Beschr 3 Stehen 17 bis 19",
+      "verbatim_hint": "Haar aus dem Gesicht"
+    },
+    "safety_notes": [
+      "Annäherung an Kopf langsam",
+      "Gesicht nicht beruehren"
+    ]
+  },
+  {
+    "id": "nbv_haende_massieren_sitzend_v1",
+    "name": "Haende massieren sitzend",
+    "description": "Sitzend Finger verschraenken und Daumen ueber Handflaechen kreisen",
+    "context": [
+      "messeplatz",
+      "haltestelle"
+    ],
+    "communicative_functions": [
+      "self_regulation",
+      "waiting"
+    ],
+    "affect_hint": [
+      "calm"
+    ],
+    "place_function": [
+      "wait_zone"
+    ],
+    "social_stance": [
+      "repair_self",
+      "invisible"
+    ],
+    "activity_coupling": [],
+    "body_occupancy": [
+      "seated",
+      "both_hands_busy"
+    ],
+    "provenance": {
+      "source": "Nocon 2015",
+      "scene_or_page": "Beschr 2 und Szene 10",
+      "verbatim_hint": "Haende massieren"
+    },
+    "safety_notes": [
+      "Langsam ausfuehren"
+    ]
+  },
+  {
+    "id": "nbv_augenlider_benetzen_v1",
+    "name": "Augenlider benetzen",
+    "description": "Daumen kurz anfeuchten und sanft ueber Augenlider streichen",
+    "context": [
+      "platz_stadtmitte",
+      "haltestelle"
+    ],
+    "communicative_functions": [
+      "fatigue_hint",
+      "self_maintenance"
+    ],
+    "affect_hint": [
+      "tired"
+    ],
+    "place_function": [
+      "wait_zone"
+    ],
+    "social_stance": [
+      "repair_self"
+    ],
+    "activity_coupling": [],
+    "body_occupancy": [
+      "one_hand_busy",
+      "seated",
+      "standing"
+    ],
+    "provenance": {
+      "source": "Nocon 2015",
+      "scene_or_page": "Beschr 3",
+      "verbatim_hint": "Augenlider benetzen"
+    },
+    "safety_notes": [
+      "Kein Gesichtskontakt bei Besuchenden",
+      "Nur andeuten ohne Beruehrung"
+    ]
+  },
+  {
+    "id": "nbv_mundwinkel_massieren_v1",
+    "name": "Mundwinkel massieren",
+    "description": "Mit Zeigefinger und Daumen von Nase zu Mundwinkeln streichen",
+    "context": [
+      "platz_stadtmitte",
+      "cafe"
+    ],
+    "communicative_functions": [
+      "cognitive_load",
+      "absent_minded"
+    ],
+    "affect_hint": [
+      "pensive"
+    ],
+    "place_function": [
+      "linger_zone"
+    ],
+    "social_stance": [
+      "invisible"
+    ],
+    "activity_coupling": [],
+    "body_occupancy": [
+      "one_hand_busy",
+      "seated",
+      "standing"
+    ],
+    "provenance": {
+      "source": "Nocon 2015",
+      "scene_or_page": "Beschr 3",
+      "verbatim_hint": "Mundwinkel massieren"
+    },
+    "safety_notes": [
+      "Gesicht nicht beruehren nur andeuten"
+    ]
+  },
+  {
+    "id": "nbv_handflaechen_zeigen_beidhaendig_v1",
+    "name": "Handflaechen zeigen beidhaendig",
+    "description": "Unterarme anheben Ellbogen gebeugt Handflaechen nach vorn zeigen",
+    "context": [
+      "cafe",
+      "platz_stadtmitte"
+    ],
+    "communicative_functions": [
+      "deescalation",
+      "non_threat"
+    ],
+    "affect_hint": [
+      "calm"
+    ],
+    "place_function": [
+      "threshold",
+      "hotspot"
+    ],
+    "social_stance": [
+      "deferential"
+    ],
+    "activity_coupling": [],
+    "body_occupancy": [
+      "both_hands_busy",
+      "standing"
+    ],
+    "provenance": {
+      "source": "Nocon 2015",
+      "scene_or_page": "Cafe Gebaerde Handlung",
+      "verbatim_hint": "Die Handflaechen zeigen"
+    },
+    "safety_notes": [
+      "Arme nicht ueberstrecken",
+      "Abstand halten"
+    ]
+  },
+  {
+    "id": "nbv_geld_geben_ware_empfangen_v1",
+    "name": "Geld geben und Ware empfangen",
+    "description": "Eine Hand flach zum Empfangen oeffnen dann Finger zusammenfuehren und Arm strecken um zu reichen",
+    "context": [
+      "markt",
+      "kiosk"
+    ],
+    "communicative_functions": [
+      "transaction"
+    ],
+    "affect_hint": [
+      "neutral",
+      "cooperative"
+    ],
+    "place_function": [
+      "threshold"
+    ],
+    "social_stance": [
+      "cooperative"
+    ],
+    "activity_coupling": [
+      "money_exchange"
+    ],
+    "body_occupancy": [
+      "one_hand_busy",
+      "standing"
+    ],
+    "provenance": {
+      "source": "Nocon 2015",
+      "scene_or_page": "Gebaeerde Handlung Markt",
+      "verbatim_hint": "Geschaefte Hand aufhalten Geld geben Ware empfangen"
+    },
+    "safety_notes": [
+      "Greifraum klar halten"
+    ]
+  },
+  {
+    "id": "nbv_aus_dose_trinken_v1",
+    "name": "Aus der Dose trinken",
+    "description": "Behaelter auf Bauchhoehe halten ansetzen kurzer Kopfneig trinken andeuten",
+    "context": [
+      "bahnhof",
+      "platz_stadtmitte"
+    ],
+    "communicative_functions": [
+      "self_care",
+      "pause"
+    ],
+    "affect_hint": [
+      "neutral"
+    ],
+    "place_function": [
+      "linger_zone",
+      "wait_zone"
+    ],
+    "social_stance": [
+      "invisible"
+    ],
+    "activity_coupling": [
+      "drink"
+    ],
+    "body_occupancy": [
+      "one_hand_busy",
+      "standing",
+      "seated"
+    ],
+    "provenance": {
+      "source": "Nocon 2015",
+      "scene_or_page": "Bahnhof Handlung",
+      "verbatim_hint": "Aus der Dose trinken"
+    },
+    "safety_notes": [
+      "Nur Geste kein echtes Fluessigkeitseinsatz"
+    ]
+  },
+  {
+    "id": "nbv_foto_sequence_v1",
+    "name": "Ein Bild machen Sequenz",
+    "description": "Selbstportraet und Foto anderer sowie Anschauen als kurze Folge",
+    "context": [
+      "flussufer",
+      "stadtmitte"
+    ],
+    "communicative_functions": [
+      "documentation_photo",
+      "self_presentation"
+    ],
+    "affect_hint": [
+      "playful"
+    ],
+    "place_function": [
+      "hotspot"
+    ],
+    "social_stance": [
+      "display_self"
+    ],
+    "activity_coupling": [
+      "phone"
+    ],
+    "body_occupancy": [
+      "one_hand_busy",
+      "both_hands_busy",
+      "standing"
+    ],
+    "variants": [
+      {
+        "id": "selfie",
+        "form_notes": "Arm fast gestreckt Telefon drehen Kopf leicht neigen"
+      },
+      {
+        "id": "others",
+        "form_notes": "Beide Haende Ellbogen leicht gebeugt kurzer Schritt vor"
+      },
+      {
+        "id": "review",
+        "form_notes": "Beide Haende vor Bauch kurzer Blickwechsel auf Geraet"
+      }
+    ],
+    "provenance": {
+      "source": "Nocon 2015",
+      "scene_or_page": "Flussufer Handlung und Beschr 3",
+      "verbatim_hint": "Ein Bild machen lange Version und Anschauen"
+    },
+    "safety_notes": [
+      "Sichtfeld frei halten"
+    ]
+  },
+  {
+    "id": "nbv_victory_links_v1",
+    "name": "Victory Zeichen mit linker Hand",
+    "description": "Linke Hand mit Zeige und Mittelfinger gespreizt zeigen",
+    "context": [
+      "oeffentlicher_raum"
+    ],
+    "communicative_functions": [
+      "celebration",
+      "acknowledgement"
+    ],
+    "affect_hint": [
+      "positive"
+    ],
+    "place_function": [
+      "hotspot"
+    ],
+    "social_stance": [
+      "display_self",
+      "playful"
+    ],
+    "activity_coupling": [],
+    "body_occupancy": [
+      "one_hand_busy",
+      "standing",
+      "walking"
+    ],
+    "provenance": {
+      "source": "Nocon 2015",
+      "scene_or_page": "Beschreibung 1 Szene Jugendliche Victory",
+      "verbatim_hint": "Victory Zeichen"
+    },
+    "safety_notes": [
+      "Finger nicht ueberstrecken"
+    ]
+  },
+  {
+    "id": "nbv_winken_mir_nach_beidhaendig_v1",
+    "name": "Winken Mir nach beidhaendig",
+    "description": "Beide Arme heben Handflaechen zum Koerper Finger wiederholt einklappen um Gruppe herbeizurufen",
+    "context": [
+      "bahnhof",
+      "haltestelle",
+      "gruppe"
+    ],
+    "communicative_functions": [
+      "summons",
+      "group_coordination"
+    ],
+    "affect_hint": [
+      "engaging",
+      "assertive"
+    ],
+    "place_function": [
+      "pass_through",
+      "threshold"
+    ],
+    "social_stance": [
+      "inviting"
+    ],
+    "activity_coupling": [
+      "group_coordination"
+    ],
+    "body_occupancy": [
+      "both_hands_busy",
+      "standing"
+    ],
+    "provenance": {
+      "source": "Nocon 2015",
+      "scene_or_page": "Bahnhof Gebaerde Handlung",
+      "verbatim_hint": "Winken Mir nach"
+    },
+    "safety_notes": [
+      "Seitlichen Freiraum pruefen",
+      "Amplituden moderat halten"
     ]
   }
 ]

@@ -19,12 +19,59 @@
   },
   {
     "if": {
+      "intent": "summons",
+      "environment": {
+        "noise": "high"
+      },
+      "audience": "group"
+    },
+    "do": {
+      "gesture": "nbv_winken_mir_nach_beidhaendig_v1",
+      "speech_offset_ms": -200,
+      "repeat": 3
+    },
+    "modulation": {
+      "amplitude": "high",
+      "tempo": "medium"
+    }
+  },
+  {
+    "if": {
       "intent": "halt_signal",
       "tension": "rising"
     },
     "do": {
       "gesture": "nbv_stopp_linke_hand_v1",
       "speech_offset_ms": 0,
+      "repeat": 1
+    },
+    "modulation": {
+      "amplitude": "low",
+      "tempo": "slow"
+    }
+  },
+  {
+    "if": {
+      "intent": "deescalation",
+      "audience": "group"
+    },
+    "do": {
+      "gesture": "nbv_handflaechen_zeigen_beidhaendig_v1",
+      "speech_offset_ms": 0,
+      "repeat": 1
+    },
+    "modulation": {
+      "amplitude": "low",
+      "tempo": "slow"
+    }
+  },
+  {
+    "if": {
+      "intent": "non_threat"
+    },
+    "do": {
+      "gesture": "nbv_handflaechen_zeigen_beidhaendig_v1",
+      "speech_offset_ms": 50,
       "repeat": 1
     },
     "modulation": {
@@ -59,6 +106,21 @@
     "modulation": {
       "amplitude": "low",
       "tempo": "slow"
+    }
+  },
+  {
+    "if": {
+      "intent": "documentation_photo",
+      "emphasis": "high"
+    },
+    "do": {
+      "gesture": "nbv_foto_sequence_v1",
+      "speech_offset_ms": -120,
+      "repeat": 1
+    },
+    "modulation": {
+      "amplitude": "medium",
+      "tempo": "medium"
     }
   },
   {
@@ -106,6 +168,21 @@
   },
   {
     "if": {
+      "intent": "celebration",
+      "handedness": "left_needed"
+    },
+    "do": {
+      "gesture": "nbv_victory_links_v1",
+      "speech_offset_ms": 0,
+      "repeat": 1
+    },
+    "modulation": {
+      "amplitude": "medium",
+      "tempo": "medium"
+    }
+  },
+  {
+    "if": {
       "intent": "celebration"
     },
     "do": {
@@ -121,7 +198,10 @@
   {
     "if": {
       "intent": "attention_directing",
-      "audience": "group"
+      "audience": "group",
+      "environment": {
+        "noise": "low_or_medium"
+      }
     },
     "do": {
       "gesture": "nbv_arme_seitlich_strecken_v1",
@@ -130,6 +210,24 @@
     },
     "modulation": {
       "amplitude": "medium",
+      "tempo": "medium"
+    }
+  },
+  {
+    "if": {
+      "intent": "attention_directing",
+      "audience": "group",
+      "environment": {
+        "noise": "high"
+      }
+    },
+    "do": {
+      "gesture": "nbv_arme_seitlich_schwenken_gegenseitig_v1",
+      "speech_offset_ms": -120,
+      "repeat": 2
+    },
+    "modulation": {
+      "amplitude": "high",
       "tempo": "medium"
     }
   },
@@ -145,6 +243,97 @@
     "modulation": {
       "amplitude": "medium",
       "tempo": "medium"
+    }
+  },
+  {
+    "if": {
+      "intent": "self_adjustment",
+      "action": "hair_face",
+      "dialogue_state": "idle"
+    },
+    "do": {
+      "gesture": "nbv_haar_aus_gesicht_rechts_v1",
+      "speech_offset_ms": 0,
+      "repeat": 1
+    },
+    "modulation": {
+      "amplitude": "very_low",
+      "tempo": "slow"
+    }
+  },
+  {
+    "if": {
+      "intent": "self_adjustment",
+      "action": "eyes_relief"
+    },
+    "do": {
+      "gesture": "nbv_augenlider_benetzen_v1",
+      "speech_offset_ms": 0,
+      "repeat": 1
+    },
+    "modulation": {
+      "amplitude": "very_low",
+      "tempo": "slow"
+    }
+  },
+  {
+    "if": {
+      "intent": "self_adjustment",
+      "action": "mouth_corner_relief"
+    },
+    "do": {
+      "gesture": "nbv_mundwinkel_massieren_v1",
+      "speech_offset_ms": 0,
+      "repeat": 1
+    },
+    "modulation": {
+      "amplitude": "very_low",
+      "tempo": "slow"
+    }
+  },
+  {
+    "if": {
+      "intent": "transaction_exchange",
+      "context": "kiosk_or_counter"
+    },
+    "do": {
+      "gesture": "nbv_geld_geben_ware_empfangen_v1",
+      "speech_offset_ms": 50,
+      "repeat": 1
+    },
+    "modulation": {
+      "amplitude": "low",
+      "tempo": "medium"
+    }
+  },
+  {
+    "if": {
+      "intent": "consume_drink",
+      "prop": "can_or_bottle"
+    },
+    "do": {
+      "gesture": "nbv_aus_dose_trinken_v1",
+      "speech_offset_ms": 0,
+      "repeat": 1
+    },
+    "modulation": {
+      "amplitude": "low",
+      "tempo": "slow"
+    }
+  },
+  {
+    "if": {
+      "intent": "self_soothing",
+      "posture": "sitting"
+    },
+    "do": {
+      "gesture": "nbv_haende_massieren_sitzend_v1",
+      "speech_offset_ms": 0,
+      "repeat": 2
+    },
+    "modulation": {
+      "amplitude": "very_low",
+      "tempo": "slow"
     }
   }
 ]
