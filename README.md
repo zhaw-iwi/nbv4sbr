@@ -49,3 +49,4 @@ The repository therefore combines empirical observation, semantic annotation, an
 - `nbv_catalog.json` – catalogue of gestures with names, descriptions, functions, and contexts
 - `nbv_coupling_rules.json` – mappings from intents and SBR conditions to gestures with timing and modulation
 - `nbv_g1_poses.json` – executable G1 motion definitions for each gesture (XML keyframes)
+- `docs/` – background materials and mapping notes from the original ethnographic corpus
